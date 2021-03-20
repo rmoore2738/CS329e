@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>ENTER TITLE HERE</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="ENTER DESCRIPTION HERE">
+	<meta name="author" content="ENTER NAME HERE">
+</head> 
+
+<body>
+<caption><b>Campus Visit Feedback Form</b></caption>
+<form method = "POST" action = "http://www.cknuckles.com/cgi/echo.cgi">
+	<table border = '0'>
+   <p>
+   <label> Student Name: <input name = "name" type = "text" size = "30" /> </label> 
+   </p>
+   <p>
+   <label> Email Address: <input name = "email" type = "text" size = "30" /> </label>
+   </p>
+   <p>
+   <label> Street Address: <input name = "address" type = "text" size = "30" /> </label> 
+   <p>
+      <b>Things you liked most about Campus:</b><br />
+      	    <label> Students <input name = "attraction[]" type = "checkbox" value = "students" /> </label>
+            <label> Location <input name = "attraction[]" type = "checkbox" value = "location" /> </label>
+            <label> Campus <input name = "attraction[]" type = "checkbox" value = "campus" /> </label>
+            <label> Courses Offered <input name = "attraction[]" type = "checkbox" value = "courses" /> </label>
+            <label> Housing <input name = "attraction[]" type = "checkbox" value = "housing" /> </label>
+            <label> Sports <input name = "attraction[]" type = "checkbox" value = "sports" /> </label>
+   </p>
+
+   <p>
+      <b>How did you become interested in UT?</b><br />
+            <label> Family <input name = "connection" type = "radio" value = "family" /> </label>
+            <label> Friends <input name = "connection" type = "radio" value = "friends" /> </label>
+            <label> Television <input name = "connection" type = "radio" value = "tv" /> </label>
+            <label> Internet <input name = "connection" type = "radio" value = "internet" /> </label>
+            <label> Other <input name = "connection" type = "radio" value = "other" /> </label>
+   </p>
+   <p>
+      <label> Which department did you visit? :
+      <select name = "rating">
+      <option selected = "selected"> College of Natural Sciences </option>
+                 <option> Cockrell School of Engineering </option>
+                 <option> Mccombs School of Business </option>
+                 <option> Department of Radio-Television-Film </option>
+                 <option> History Department</option>
+                 <option> School of Information </option>
+            </select>
+           </label>
+   </p>
+
+   <p>
+      <label> Additional Comments: <br />
+         <textarea name = "comments" rows = "4" cols = "36"> Enter your comments here: </textarea>
+      </label>
+   </p>
+
+   <p>
+      <input type = "submit" value = "Submit" />
+      <input type = "reset" value = "Reset" />
+   </p>
+
+</form>
+
+</body>
+</html>

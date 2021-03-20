@@ -1,0 +1,12 @@
+body {
+background-color: #C0C0C0;
+text-align: center;
+line-height: 2;
+font-size: 120%;
+}
+h1 {
+text-align: center;
+background-color: #4682B4;
+margin: 0;
+font: "copperplate";
+}

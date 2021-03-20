@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+        <title>Morgage Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="ENTER DESCRIPTION HERE">
+        <meta name="author" content="ENTER NAME HERE">
+        <link href = "hw6.css" rel = "stylesheet">
+
+</head>
+<body>
+<h1>Mortgage Calculator</h1>
+<form id = "form" onsubmit = "return false">
+Principal Amount: <input id = "P" name = "principal amount" type = "text" size = "10" />
+<br>
+Loan Term (in months):  <input id = "n" name = "number of months" type = "text" size = "10"  />
+<br>
+Yearly Percentage Interest Rate(%): <input id = "r" name = "monthly rate" type = "text" size = "10"  />
+<br>
+
+<button onclick="calculate()"> Calculate </button>
+<input id = "reset" name = "Reset" type = "reset"> 
+
+<br>
+Monthly Payments: <input id = "R" name = "monthly pay" type = "text" size = "10"  /><br>
+Sum of All Payments: <input id = "s" name = "sum " type = "text" size = "10"  /><br>
+Total Interest Paid: <input id = "t" name = "total" type = "text" size = "10"  /><br>
+<script src = hw6.js> </script>
+
+</form>
+
+</body>
+</html>
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<title>Password & Username</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="DESCRIPTION">
+	<meta name="author" content="AUTHOR">
+    	<link href="hw7.css" rel="stylesheet">
+</head> 
+
+<body>
+<h1>Username & password, please</h1>
+
+<h3>Oh and by the way...</h3>
+The username must be between 6 and 10 characters long, inclusive.<br>
+The username must contain only letters and digits.<br>
+The username cannot begin with a digit.<br>
+<br>
+The password and the repeat password must match.<br>
+The password must be between 6 and 10 characters long, inclusive.<br>
+The password must contain only letters and digits.<br>
+The password must have at least one lower case letter, at least one upper case letter, and at least one digit.<br>
+<br>
+
+
+<form id = "form" onsubmit = "return false"> 
+
+<label for="user"><b>Username: </b></label>
+<input id = "user" type="text" placeholder="Enter Username" name="Username" required>
+<br>
+<br>
+<label for="psw"><b>Password: </b></label>
+<input id = "psw" type="password" placeholder="Enter Password" name="Password" required>
+<br>
+<br>
+<label for="repeat_psw"><b>Repeat Password: </b></label>
+<input id = "repeat_psw" type="password" placeholder="Enter Password again" name="Repeat Password" required>
+<br>
+<br>
+<script src= "hw7.js"> </script>
+<input id = "clear" name = "Clear" type = "reset">
+<button onclick = "register()"> Register </button>
+
+</form>
+
+</body>
+</html>

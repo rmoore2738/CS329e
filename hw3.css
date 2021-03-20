@@ -1,0 +1,14 @@
+body {background-color: #FFF0F5;
+font-family:"Monaco", Monospace;
+text-align:center;
+}
+
+.grey {
+	color:#778899;
+	font-size:18pt;
+}
+
+.purp {
+	color:#663399;
+	font-size:30pt;
+}

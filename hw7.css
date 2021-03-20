@@ -1,0 +1,18 @@
+body {
+font: Monaco;
+color: white;
+background: #BC8F8F;
+}
+
+h1 {
+size: 30pt;
+font-style: bold;
+bottom-border: 1px solid white;
+}
+
+form  {
+font-size: 20pt;
+font-style: italic;
+bottom-border: 1px solid white;
+}
+

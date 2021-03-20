@@ -1,0 +1,40 @@
+body {background-color:rgb(64,64,64);
+font-family:"Monaco", Monospace;
+text-align:center;
+}
+
+.turquoise {
+	color:#40E0D0;
+	font-size:30pt;
+}
+
+.red  {
+       	color:#FF0000;
+  	font-size:16pt;
+}	
+
+.orange {
+ 	 color: orange;
+ 	 font-size:16pt;
+}
+
+.yellow {
+  	color: yellow;
+ 	font-size:16pt;
+}
+
+.green {
+  	color:#7CFC00;
+  	font-size:16pt;
+}
+
+.blue {
+  	color: #00FFFF;
+  	font-size:16pt;
+}
+
+.purple {
+  	color: #FF00FF;
+  	font-size:16pt;
+}
+
